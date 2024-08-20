@@ -56,23 +56,15 @@ header a:hover {
 }
 /*estilos sobre*/
 #sobre {
-  display: flex;
-  gap: 30px;
   padding: 30px 150px;
   margin: 0 auto;
   max-width: 1440px;
-  justify-content: center;
 }
-
 #sobre h1 {
   font-size: 4.5rem;
 }
-#sobre img {
-  border-radius: 10px;
-}
 #sobre p {
   font-size: 1.5rem;
-  max-width: 600px;
 }
 /*estilo portfolio*/
 #portfolio {
@@ -89,7 +81,6 @@ header a:hover {
   padding-top: 30px;
   display: flex;
   gap: 30px;
-  flex-wrap: wrap;
 }
 .gif img {
   border-radius: 10px;
@@ -234,6 +225,11 @@ header a:hover {
   }
   #portfolio h1 {
     font-size: 2.5rem;
+  }
+}
+@media (max-width: 650px) {
+  .gif {
+    flex-wrap: wrap;
   }
 }
 /*RESPONSIVIDADE FORMACAO*/
