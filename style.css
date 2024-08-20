@@ -41,7 +41,8 @@ header {
 }
 header ol {
   display: flex;
-  gap: 10px;
+  gap: 15px;
+  flex-wrap: wrap;
 }
 header a {
   font-size: 1.125rem;
@@ -62,6 +63,7 @@ header a:hover {
   max-width: 1440px;
   justify-content: center;
 }
+
 #sobre h1 {
   font-size: 4.5rem;
 }
@@ -78,6 +80,7 @@ header a:hover {
   margin: 0 auto;
   max-width: 1440px;
 }
+
 #portfolio h1 {
   font-size: 4.5rem;
   color: #e0e0e0;
@@ -137,6 +140,7 @@ header a:hover {
   font-weight: 900;
   margin-top: 20px;
   margin-bottom: 40px;
+  text-transform: uppercase;
 }
 .cursos-intensivos {
   margin-top: 40px;
@@ -212,4 +216,54 @@ header a:hover {
   background-color: #a3a3a3;
   border-radius: 50%;
   text-align: center;
+}
+/*RESPONSIVIDADE PAGINA SOBRE*/
+@media (max-width: 900px) {
+  #sobre {
+    flex-wrap: wrap;
+    padding: 30px;
+  }
+  #sobre h1 {
+    font-size: 2.5rem;
+  }
+}
+/*RESPONSIVIDAE PORTFOLIO*/
+@media (max-width: 900px) {
+  #portfolio {
+    padding: 30px;
+  }
+  #portfolio h1 {
+    font-size: 2.5rem;
+  }
+}
+/*RESPONSIVIDADE FORMACAO*/
+@media (max-width: 900px) {
+  #formacao {
+    padding: 30px;
+  }
+  #formacao h1 {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 650px) {
+  .formacao-cursos {
+    grid-template-columns: 1fr;
+  }
+  .cursos-intensivos {
+    max-width: 100%;
+  }
+}
+/*RESPONSIVIDADE CONTATO*/
+@media (max-width: 900px) {
+  #contato {
+    padding: 30px;
+  }
+  #contato h1 {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 650px) {
+  .formulario {
+    width: 100%;
+  }
 }
