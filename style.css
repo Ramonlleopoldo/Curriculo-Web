@@ -1,0 +1,215 @@
+/*resets*/
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #292929;
+}
+li {
+  list-style-type: none;
+}
+body {
+  box-sizing: border-box;
+  color: #292929;
+  font-family: "Fira Sans", sans-serif;
+}
+img {
+  max-width: 100%;
+}
+span {
+  display: block;
+}
+/*backgroud preto mais claro*/
+.bg-141414 {
+  background-color: #141414;
+}
+/*backgroud preto*/
+.bg-000 {
+  background-color: #000;
+}
+/*estilos header*/
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  padding: 30px;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+header ol {
+  display: flex;
+  gap: 10px;
+}
+header a {
+  font-size: 1.125rem;
+  padding: 10px 15px;
+  text-align: center;
+  border-radius: 10px;
+  transition: 0.7s;
+}
+header a:hover {
+  background-color: #e0e0e0;
+}
+/*estilos sobre*/
+#sobre {
+  display: flex;
+  gap: 30px;
+  padding: 30px 150px;
+  margin: 0 auto;
+  max-width: 1440px;
+  justify-content: center;
+}
+#sobre h1 {
+  font-size: 4.5rem;
+}
+#sobre img {
+  border-radius: 10px;
+}
+#sobre p {
+  font-size: 1.5rem;
+  max-width: 600px;
+}
+/*estilo portfolio*/
+#portfolio {
+  padding: 30px 150px;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+#portfolio h1 {
+  font-size: 4.5rem;
+  color: #e0e0e0;
+}
+.gif {
+  padding-top: 30px;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.gif img {
+  border-radius: 10px;
+}
+.botao a {
+  padding: 10px 20px;
+  background-color: #e0e0e0;
+  display: inline-block;
+  text-transform: uppercase;
+  border-radius: 10px;
+  font-weight: 600;
+  margin-top: 30px;
+  transition: 0.7s;
+}
+.botao a:hover {
+  background-color: #292929;
+  color: #fff;
+}
+/*estilos formação*/
+#formacao {
+  padding: 30px 150px;
+  margin: 0 auto;
+  max-width: 1440px;
+  color: #fff;
+}
+#formacao h1 {
+  font-size: 4.5rem;
+  color: #000;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.formacao-cursos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+.formacao-cursos > div {
+  background-color: #000;
+  border-radius: 10px;
+  padding: 20px;
+}
+.tipo {
+  font-size: 0.875rem;
+  color: #a3a3a3;
+}
+.nome {
+  font-size: 1.125rem;
+  font-weight: 900;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.cursos-intensivos {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #000;
+  max-width: 50%;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+.cursos-intensivos > .tipo {
+  margin-bottom: 40px;
+}
+.cursos-intensivos > div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+/*contato*/
+#contato {
+  padding: 30px 150px;
+  margin: 0 auto;
+  max-width: 1440px;
+  color: #fff;
+}
+#contato h1 {
+  font-size: 4.5rem;
+}
+#contato p {
+  font-size: 1.125rem;
+}
+.formulario {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+.formulario > label {
+  font-size: 1.125rem;
+  margin-top: 10px;
+}
+.formulario > input {
+  height: 30px;
+  font-size: 1.125rem;
+}
+.formuario > textarea {
+  font-size: 1.125rem;
+}
+.botao-formulario {
+  padding: 15px 30px;
+  background-color: #141414;
+  display: inline-block;
+  margin-top: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: 0.7s;
+  text-transform: uppercase;
+  color: #fff;
+  border-color: transparent;
+}
+.botao-formulario:hover {
+  background-color: #a3a3a3;
+  color: #000;
+}
+.redes > ol {
+  display: flex;
+  gap: 20px;
+}
+.redes > ol > li {
+  padding: 10px;
+}
+.redes > ol > li:hover {
+  background-color: #a3a3a3;
+  border-radius: 50%;
+  text-align: center;
+}
